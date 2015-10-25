@@ -1,0 +1,79 @@
+@import "colors";
+
+.client {
+  @extend .default;
+  .header {
+    h1 {
+      color: $gray-text;
+      font-size: 36px;
+      font-weight: 300;
+      line-height: 34px;
+      text-align: center;
+      margin: 30px auto;
+    }
+    border-bottom: 1px solid $gray-border;
+  }
+  .content {
+    border-bottom: 1px solid $gray-border;
+    overflow: auto;
+    p:first-child {
+      text-transform: uppercase;
+      color: $gray-text;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 34px;
+      padding-top: 20px;
+      padding-bottom: 0;
+    }
+    p {
+      color: $gray-text;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      margin: 0;
+      padding-bottom: 30px;
+    }
+  }
+  .total {
+    padding-left: 30px;
+    h1 {
+      text-transform: uppercase;
+      color: $gray-text;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 34px;
+    }
+    td {
+      padding-bottom: 20px;
+    }
+    tr:first-child {
+      color: #0093ff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    tr {
+      color: $gray-text;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+  .cash {
+    padding-left: 30px;
+    padding-right: 70px;
+    text-transform: uppercase;
+    color: $gray-text;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    p {
+      display: inline-block;
+    }
+    p:last-child {
+      float: right;
+    }
+  }
+}

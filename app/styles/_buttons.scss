@@ -1,0 +1,15 @@
+.blue-button{
+	background: $blue-1;
+	color: white;
+	font-size: 12px;
+	padding: 10px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	width: 100%;
+	cursor: pointer;
+
+	&:hover{
+		background: lighten($blue-1, 10%);
+	}
+}

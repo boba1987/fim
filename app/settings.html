@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>fim</title>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="bower_components/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css">
+
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="container settings">
+    <div class="row">
+        <header>
+            <div class="col-lg-12 clearfix">
+                <div class="pull-left">
+                    <img class="img-responsive" src="images/fim-logo.png" alt=""/>
+                </div>
+                <div class="pull-right">
+                    <span class="text">
+                        Vladimir Babic
+                    </span>
+                    <img class="" src="images/profile-placeholder.png" alt=""/>
+                </div>
+                <span class="center">
+                    <img class="" src="images/invoice-active.png" alt=""/>
+                    <img class="" src="images/clients-inactive.png" alt=""/>
+                    <img class="" src="images/settings-inactive.png" alt=""/>
+                </span>
+            </div>
+        </header>
+    </div>
+    <div class="row">
+        <div class="main">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 col-lg-push-9">
+                  <p class="h1-gray">Invoice Settigns</p>
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <label for="currency">Currency</label>
+                      <select name="" id="currency" class="chosen-select" style="display: none;">
+                          <option value="">Lorem ipsum</option>
+                          <option value="">dolor sit amet</option>
+                          <option value="">Laboriosam ducimus</option>
+                          <option value="">Illum, facere.</option>
+                      </select>
+                    </div>
+                    <div class="col-xs-6">
+                      <label for="date-format">Date Format</label>
+                      <select name="" id="date-format" class="chosen-select" style="display: none;">
+                          <option value="">Lorem ipsum</option>
+                          <option value="">dolor sit amet</option>
+                          <option value="">Laboriosam ducimus</option>
+                          <option value="">Illum, facere.</option>
+                      </select>
+                    </div>
+                    <div class="col-xs-6">
+                      <label for="invoice-title">Invoice Title</label>
+                      <input id="invoice-title" type="text">
+                    </div>
+                    <div class="col-xs-6">
+                      <label for="stamp">Stamp</label>
+                      <select name="" id="stamp" class="chosen-select" style="display: none;">
+                          <option value="">Lorem ipsum</option>
+                          <option value="">dolor sit amet</option>
+                          <option value="">Laboriosam ducimus</option>
+                          <option value="">Illum, facere.</option>
+                      </select>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="border-gray"></div>
+                    </div>
+                    <div class="margin-10-0">
+                      <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12">
+                        <p>
+                          Payment terms
+                        </p>
+                      </div>
+                      <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12 switch-holder">
+                        <p class="pull-left gray-16-14 text-uppercase offText" name="off-switch">off</p>
+                        <input data-off-text="False" data-on-text="True" type="checkbox" name="rev-checkbox" checked>
+                        <p class="gray-16-14 text-uppercase" name="on-switch">on</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="border-gray"></div>
+                    </div>
+                    <div class="margin-10-0">
+                      <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12">
+                        <p>
+                          Payment terms
+                        </p>
+                      </div>
+                      <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12 switch-holder">
+                        <p class="pull-left gray-16-14 text-uppercase offText" name="off-switch">off</p>
+                        <input data-off-text="False" data-on-text="True" type="checkbox" name="rev-checkbox">
+                        <p class="gray-16-14 text-uppercase" name="on-switch">on</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="border-gray"></div>
+                    </div>
+                    <div class="margin-10-0">
+                      <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12">
+                        <p>
+                          Payment terms
+                        </p>
+                      </div>
+                      <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12 switch-holder">
+                        <p class="pull-left gray-16-14 text-uppercase offText" name="off-switch">off</p>
+                        <input data-off-text="False" data-on-text="True" type="checkbox" name="rev-checkbox" checked>
+                        <p class="gray-16-14 text-uppercase" name="on-switch">on</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="border-gray"></div>
+                    </div>
+                    <div class="col-xs-12">
+                      <p>
+                        Accent Color
+                      </p>
+                      <ul class="accent-color">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                      </ul>
+                    </div>
+                    <div class="col-xs-12">
+                      <p>
+                        Discounts
+                      </p>
+                      <div class="side-item">
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <p>
+                              33%
+                            </p>
+                          </div>
+                          <div class="col-xs-2">
+                            <p class="inactive">
+                              OFF
+                            </p>
+                          </div>
+                          <div class="col-xs-2">
+                            <p class="inactive">
+                              FLAT
+                            </p>
+                          </div>
+                          <div class="col-xs-2">
+                            <p class="active">
+                              %
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 margin-top-20">
+                      <p>
+                        Tax
+                      </p>
+                      <div class="side-item">
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <p class="inactive">
+                              33%
+                            </p>
+                          </div>
+                          <div class="col-xs-2">
+                            <p class="active">
+                              OFF
+                            </p>
+                          </div>
+                          <div class="col-xs-2">
+                            <p class="inactive">
+                              FLAT
+                            </p>
+                          </div>
+                          <div class="col-xs-2">
+                            <p class="inactive">
+                              %
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 margin-top-20">
+                      <p>
+                        Paid To Date
+                      </p>
+                      <div class="side-item">
+                        <div class="row">
+                          <div class="col-xs-5">
+                            <p>
+                              330$
+                            </p>
+                          </div>
+                          <div class="col-xs-7">
+                            <div class="switch-holder pull-right">
+                              <p class="pull-left gray-16-14 text-uppercase offText" name="off-switch">off</p>
+                              <input data-off-text="False" data-on-text="True" type="checkbox" name="rev-checkbox" checked>
+                              <p class="gray-16-14 text-uppercase" name="on-switch">on</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 margin-top-20">
+                      <div class="blue-button text-center">
+                        Download
+                      </div>
+                    </div>
+                    <div class="col-xs-12 margin-top-10">
+                      <div class="blue-button text-center">
+                        Email Invoice
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- col-lg-3 col-md-12 col-sm-12 col-xs-12 col-lg-push-9 -->
+                <div class="col-lg-9 col-md-10 col-sm-10 col-xs-10 col-lg-pull-3">
+                    <p class="h1-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quo eum, facere suscipit magnam laborum ad architecto repellendus doloribus placeat vitae in voluptatibus, officia velit id obcaecati ratione, labore praesentium!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  </gle Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js scripts/plugins.js -->
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+
+<script type="text/javascript" src="bower_components/bootstrap-switch/dist/js/bootstrap-switch.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/main.js -->
+<script src="scripts/chosen/chosen.js"></script>
+
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>

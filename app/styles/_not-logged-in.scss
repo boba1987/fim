@@ -1,0 +1,166 @@
+.faktura {
+  width: 1145px;
+  margin: 30px auto 0 auto;
+  .header {
+    overflow: auto;
+    margin-bottom: 60px;
+    .logo {
+      display: inline-block;
+      float: left;
+    }
+    .btn-create {
+      width: 152px;
+      height: 40px;
+      background-color: #0093ff;
+      border: 1px solid #e8e8e8;
+      border-radius: 4px;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 20px;
+      color: white;
+      &:hover {
+        color: white;
+      }
+      &:focus {
+        color: #FFFFFF;
+        outline: 0 !important;
+      }
+    }
+  }
+  .content-main {
+    width: 848px;
+    height: 1292px;
+    background-color: white;
+    box-shadow: 0 0 117px rgba(187, 187, 187, 0.89);
+    overflow: auto;
+    .content-inner {
+      width: 755px;
+      margin: 50px auto 0 auto;
+      .dates {
+        h2 {
+          color: grey;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 18px;
+        }
+        span {
+          color: grey;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 50px;
+          margin-right: 15px;
+        }
+      }
+      .upload {
+        width: 270px;
+        height: 70px;
+        border: 1px dashed grey;
+        border-radius: 3px;
+        text-align: center;
+        color: grey;
+        font-weight: 400;
+        line-height: 18px;
+        margin-top: 20px;
+        h3 {
+          margin-top: 20px;
+          margin-bottom: 5px;
+          font-size: 16px;
+          text-transform: uppercase;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+      .bill {
+        h1 {
+          color: grey;
+          font-size: 24px;
+          font-weight: 300;
+          line-height: 18px;
+          margin-top: 40px;
+        }
+        h2 {
+          margin-top: 0;
+          color: grey;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 50px;
+        }
+        p {
+          opacity: 0.5;
+          color: grey;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 20px;
+        }
+        .data {
+          margin-bottom: 28px;
+        }
+      }
+      .merchandise {
+        background-color: #e8e8e8;
+        border-bottom: 1px solid lightgray;
+        opacity: 0.5;
+        -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+        span {
+          display: inline-block;
+          margin: auto;
+          color: grey;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 50px;
+        }
+        .m2 {
+          border-top: 1px solid lightgray;
+        }
+      }
+      .add-new {
+        background-color: white;
+        border-bottom: 1px solid lightgray;
+        span {
+          color: #0093ff;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+  .footer {
+    text-align: center;
+    margin-top: 100px;
+    h1 {
+      color: grey;
+      font-size: 50px;
+      font-weight: 200 !important;
+      line-height: 20px;
+    }
+    h2 {
+      margin-top: 20px;
+      color: grey;
+      font-size: 20px;
+      font-weight: 400 !important;
+      line-height: 20px;
+    }
+    button {
+      margin-top: 40px;
+      margin-bottom: 60px;
+      width: 263px;
+      height: 40px;
+      background-color: #0093ff;
+      border: 1px solid #e8e8e8;
+      border-radius: 4px;
+      color: white;
+      text-transform: uppercase;
+      &:hover {
+        color: white;
+      }
+      &:focus {
+        color: #FFFFFF;
+        outline: 0 !important;
+      }
+    }
+  }
+}

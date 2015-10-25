@@ -1,0 +1,74 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "colors";
+@import "fonts";
+@import "authentication";
+@import "not-logged-in";
+@import "modal";
+@import "client";
+@import "add";
+@import "settings";
+@import "chosen";
+@import "input";
+@import "helper";
+@import "buttons";
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+// endbower
+
+//General
+button:focus {
+  outline:0 !important;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid $inputs-border;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input[type="checkbox"]:focus {
+  outline:0 !important;
+}
+
+.default {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: white;
+  border: 1px solid $main-border;
+  border-radius: 4px;
+  box-shadow: 0 0 65px rgba(0, 0, 0, 0.21);
+}
+
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+label {
+  display: block;
+  color: #909ca5;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.bootstrap-switch-handle-on, .bootstrap-switch-handle-off{
+  background: transparent !important;
+}

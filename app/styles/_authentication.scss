@@ -1,0 +1,78 @@
+@import "colors";
+
+.authentication-box {
+  width: 418px;
+  margin: 100px auto 0 auto;
+  button {
+    width: 418px;
+    height: 50px;
+    background-color: $button-blue;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 34px;
+    text-transform: uppercase;
+    &:hover, &:focus {
+      color: white;
+    }
+  }
+  input[type="email"], input[type="password"] {
+    width: 418px;
+    padding-left: 17px;
+  }
+  input[type="checkbox"]{
+    width: 24px;
+    height: 24px;
+  }
+  ::-webkit-input-placeholder {
+    opacity: 0.87;
+    color: $gray-text;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .auth-email {
+    margin-top: 30px;
+  }
+  .auth-password {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .auth-password-login {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .auth-checkbox {
+    margin-top: 15px;
+    display: inline-block;
+    label {
+      display: inline-block;
+      text-transform: none;
+      position: relative;
+      bottom: 6px;
+    }
+  }
+  .logo {
+    margin: auto;
+  }
+  .login-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 34px;
+    margin-top: 15px;
+    span:first-child {
+      color: $gray-text;
+    }
+    span:nth-child(2) {
+      a {
+        color: $button-blue;
+      }
+    }
+  }
+  .forgot {
+    display: inline-block;
+    text-align: right;
+    float: right;
+    margin-top: 22px;
+  }
+}

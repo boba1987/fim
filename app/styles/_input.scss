@@ -1,0 +1,110 @@
+label{
+	font-size: 12px;
+}
+
+.border-gray{
+	height: 1px;
+	display: block;
+	margin: 10px 0;
+	background-color: $inputs-border;
+}
+
+@media (max-width: 767px) {
+  .switch-holder {
+    margin-top: 20px;
+  }
+}
+.switch-holder p {
+  float: left;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.switch-holder p:first-child {
+  text-align: right;
+}
+.switch-holder p:last-child {
+  text-align: left;
+}
+.switch-holder p[name="off-switch"] {
+  padding-left: 0;
+}
+.bootstrap-switch.bootstrap-switch-wrapper {
+  float: left;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: darken($green-1, 2%);
+  width: 47px !important;
+  height: 15px !important;
+  padding-top: 2px !important;
+  padding-left: 2px !important;
+  border-color: transparent;
+}
+.bootstrap-switch.bootstrap-switch-wrapper .bootstrap-switch-label {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  height: 13px;
+  width: 13px;
+  padding: 0;
+  top: -7px;
+}
+.bootstrap-switch-off {
+  background-color: #c7d4d5 !important;
+  .bootstrap-switch-container{
+  	margin-left: -32px !important;
+  }
+}
+.bootstrap-switch-off .bootstrap-switch.bootstrap-switch-wrapper,
+.bootstrap-switch-off .bootstrap-switch-primary {
+  background-color: #c7d4d5 !important;
+}
+.bootstrap-switch.bootstrap-switch-small .bootstrap-switch-handle-off {
+  padding: 5px;
+}
+.bootstrap-switch-handle-on {
+  margin-left: -2px;
+  margin-right: 2px;
+}
+.small-switch .bootstrap-switch {
+  margin-left: 4px;
+}
+.small-switch .bootstrap-switch.bootstrap-switch-wrapper {
+  height: 25px !important;
+}
+.small-switch .bootstrap-switch-handle-on,
+.small-switch .bootstrap-switch-handle-off {
+  line-height: 10px !important;
+  width: 10px !important;
+  position: relative;
+  top: -3px;
+}
+.small-switch .bootstrap-switch-handle-off {
+  width: 40px !important;
+}
+.small-switch .bootstrap-switch.bootstrap-switch-wrapper .bootstrap-switch-label {
+  height: 21px !important;
+  width: 21px !important;
+}
+
+.switch-holder{
+	p{
+		color: #909ca5;
+    	font-size: 12px;	
+	}
+}
+
+input[name="rev-checkbox"]{
+	height: 1px;
+	width: 1px;
+}
+
+.bootstrap-switch.bootstrap-switch-small .bootstrap-switch-handle-off{
+	width: 30px;
+}
+
+.bootstrap-switch-off + p, .inactiveSwitch{
+	color: lighten($gray-text, 30%) !important;
+}
